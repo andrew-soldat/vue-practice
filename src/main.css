@@ -1,0 +1,193 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  background-color: #171717;
+  color: #fff;
+}
+
+input,
+button,
+textarea {
+  font-family: 'Georgia';
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+#app {
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navbar {
+  background-color: #d3d3d3;
+  padding: 15px;
+}
+
+.navbar__name {
+  color: red;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-list__link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbar-list__link.active {
+  color: blue;
+}
+
+.auth {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth__container {
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.auth__title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.auth__form {
+}
+
+.auth-form {
+}
+
+.auth-form__field {
+  margin-bottom: 15px;
+}
+
+.auth-form__label {
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #000;
+}
+
+.auth-form__input {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #000000;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.auth-form__btn {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #000000;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 5px;
+}
+
