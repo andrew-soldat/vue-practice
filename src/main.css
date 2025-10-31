@@ -48,7 +48,7 @@ body {
 input,
 button,
 textarea {
-  font-family: 'Georgia';
+  font-family: 'Georgia', sans-serif;
 }
 
 input::-ms-clear {
@@ -165,6 +165,10 @@ h6 {
   margin-bottom: 15px;
 }
 
+.auth-form__field--error .auth-form__input {
+  border-color: #ff0000;
+}
+
 .auth-form__label {
   display: flex;
   margin-bottom: 5px;
@@ -181,6 +185,13 @@ h6 {
   border-radius: 5px;
 }
 
+.auth-form__attempts,
+.auth-form__error {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #ff0000;
+}
+
 .auth-form__btn {
   width: 100%;
   padding: 5px 10px;
@@ -189,5 +200,9 @@ h6 {
   background-color: #ff0000;
   border: none;
   border-radius: 5px;
+}
+
+.auth-form__btn:disabled {
+  cursor: not-allowed;
 }
 
